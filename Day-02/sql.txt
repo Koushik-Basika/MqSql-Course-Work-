@@ -1,0 +1,29 @@
+What is SQL?
+
+SQL (Structured Query Language) is a standard language used to interact with relational databases. It allows users to store, retrieve, manipulate, and manage data efficiently. SQL is widely used because it provides a consistent way to work with data across different database systems like MySQL, Oracle, PostgreSQL, and SQL Server.
+
+==============================================================================================================================
+
+What are the key features of SQL?
+ 
+SQL offers several powerful features that make it essential for database management:
+Data Definition – Create, modify, and delete database structures (tables, schemas).
+Data Manipulation – Insert, update, delete, and retrieve data easily.
+Data Control – Manage permissions and access rights for users.
+Transaction Control – Ensure reliability with commands like COMMIT, ROLLBACK, and SAVEPOINT.
+High Portability – Works across different database systems with minimal changes.
+Scalability – Handles large datasets efficiently.
+Security – Provides mechanisms for authentication and authorisation.
+Standardisation – ANSI/ISO standard language, ensuring consistency across platforms.
+
+==============================================================================================================================
+
+What are the categories (sub-languages) of SQL?
+
+SQL is divided into five sub-languages, each serving a specific purpose:
+
+DDL (Data Definition Language): Used to define and manage the database schema. Commands include CREATE, ALTER, DROP, and TRUNCATE.
+DML (Data Manipulation Language): Deals with data operations like INSERT, UPDATE, and DELETE.
+DQL (Data Query Language): Focused on retrieving data, primarily using the SELECT statement.
+DCL (Data Control Language): Manages access and permissions with commands like GRANT and REVOKE.
+TCL (Transaction Control Language): Handles transactions with commands such as COMMIT, ROLLBACK, and SAVEPOINT.
