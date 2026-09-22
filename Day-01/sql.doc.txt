@@ -1,0 +1,82 @@
+﻿1.What is data??
+   - Data is a collection of raw facts and information that can be used for processing 
+
+2.File Management:
+*  we can create and delete
+*  we can access it and retrieve it
+*  we can organize the files
+*  File manipulation
+*  File sharing 
+*  Files backup and recovery
+
+
+3.Drawbacks of File Management System:
+ -  1.Data Redundancy: The same data is often duplicated in multiple files across different folders or departments. This leads to wasted storage space and higher maintenance effort.
+
+
+   2.Data Inconsistency: When redundant data exists in multiple files, updating a record in one location might leave other files unchanged, leading to conflicting and unreliable information.
+
+
+   3.Limited Querying & Searching: Complex searching or filtering (e.g., finding "all customers over age 30 who bought a product in May") is difficult and requires manual scanning or writing custom code, unlike databases with SQL querying.
+
+
+   4.Data Isolation: Files are stored in separate formats and locations across directories, making it hard to merge, integrate, or combine data from different files.
+
+
+   5.Poor Concurrent Access Control: If two users try to access and modify the same file at the same time, it can cause file locks (blocking access) or overwrite another user's changes without warning.
+
+
+   6.Security Vulnerabilities: File security is limited to broad OS-level file permissions (read/write/execute). FMS lacks granular access control (such as restricting access to specific fields or rows within a file).
+
+
+   7.Lack of Atomicity and Transaction Control: If a system crash or power outage occurs while updating a file, changes may be partially saved, leading to corrupted or incomplete data with no automatic rollback mechanism.
+
+
+
+4.what is data base management system:   
+*  A Database Management System (DBMS) is specialized software that serves as an interface between users or applications and a database, allowing data to be stored, retrieved, updated, and managed efficiently and securely. 
+Examples:
+   -  MySQL
+   -  PostgreSQL
+   -  Oracle
+   -  Microsoft SQL Server. 
+
+
+ Uses:
+*  Centralized Data Storage: Consolidates data from multiple sources into a unified repository, preventing data duplication and scattered files.
+* Concurrent User Access: Allows thousands of users or applications to read and modify data simultaneously without conflicts or race conditions.
+* Complex Data Querying: Enables fast retrieval and filtering of specific records using query languages like SQL (e.g., pulling sales reports by region and date).
+* Data Security & Privacy: Controls access permissions so users only view or modify data authorized for their role.
+* Automated Backup & Recovery: Protects data against system failures, power outages, or hardware bugs by recording transaction logs and enabling rollbacks.
+* Enforcing Integrity Rules: Enforces strict validation rules (such as unique constraints, non-null values, and foreign keys) to ensure accurate, consistent data.
+
+
+
+
+Features of DBMS:
+*  Data Storage Management: Allocates disk space and manages physical storage structures to save files, tables, and records efficiently.
+* Data Retrieval & Query Processing: Parses, optimizes, and executes user requests to fetch specific data rapidly using query engines.
+* Data Definition (DDL): Provides tools (like CREATE, ALTER, DROP) to build, modify, and structure tables, schemas, and relationships.
+* Data Manipulation (DML): Provides commands (like INSERT, UPDATE, DELETE) to add, modify, and remove stored entries.
+* Transaction Management: Groups sequential operations into single logical units to ensure data remains complete and consistent during updates.
+* Concurrency Control: Coordinates simultaneous access by multiple users so parallel reads and writes don't corrupt the data.
+* Data Security & Authorization: Enforces authentication and permissions to ensure only authorized users can read or edit specific records.
+* Data Integrity Management: Enforces validation rules (like Primary Keys, Foreign Keys, and NOT NULL) to prevent bad inputs.
+* Backup & Recovery Management: Logs all database activities continuously so data can be restored safely after crashes or hardware failure.
+
+Types of DBMS:
+1. Hierarchical DBMS
+* Data is organized in a tree-like structure.
+* Each child has only one parent.
+* Example: IBM Information Management System (IMS).
+    2. Network DBMS
+* Data is organized like a network.
+* A child can have multiple parent records.
+* Suitable for complex relationships.
+    3. Relational DBMS (RDBMS)
+* Data is stored in the form of tables (rows and columns).
+* Tables can be connected using relationships.
+* Examples: MySQL, Oracle, SQL Server, PostgreSQL.
+    4. Object-Oriented DBMS (OODBMS)
+* Data is stored in the form of objects, similar to object-oriented programming.
+* Supports concepts like classes and objects.
